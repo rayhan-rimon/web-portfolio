@@ -1,0 +1,111 @@
+/*Comon Style Start...*/
+
+*{
+    margin: 0;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+hr{
+    width: 23%;
+    height: 1px;
+    border-color: white;
+    background-color: #FFB825;
+}
+section{
+    height: 500px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+ h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+p{
+    text-align: justify;
+}
+h2{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+h3{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+/*Comon Style End...*/
+
+/*Top Banner Section Start...*/
+.orange-highlight{
+    color: #FFB825;
+}
+
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+
+}
+.link-button{
+    text-decoration: none;
+    color: whitesmoke;
+    background-image: linear-gradient(45deg,  #F78869, tomato, lightSalmon);
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: 700;
+
+}
+.half-width img{
+    width: 80%;
+    padding: 2% 0% 2% 2%;
+}
+    
+
+.top-banner{
+    background-image: url("../images/top-banner.png" );
+    background-repeat: no-repeat;
+}
+
+/*Top Banner Section End...*/
+/*Mid Section Start...*/
+.section-mid{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+/*Mid Section End...*/
+/*Last Section Start...*/
+.section-last{
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    height: 55%;
+    padding: 1.5%;
+}
+#l-border-1{
+    border-left: 7px solid;
+    border-image: linear-gradient(#F78869, tomato, lightSalmon);
+    border-image-slice: 1;
+}
+#l-border-2{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue , skyblue, #00FBFF);
+    border-image-slice: 1;
+}
+/*Last Section End...*/
+/*Footer Section Start...*/
+#footer{
+    padding: 10px;
+}
+#footer p{
+    color: rgb(146, 145, 145);
+    text-align: center;
+    font-size: 12px;
+}
+/*Footer Section End...*/
